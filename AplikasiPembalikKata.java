@@ -19,7 +19,7 @@ public class AplikasiPembalikKata {
         awal=masuk.nextLine();
         for (int i = awal.length() - 1; i >= 0; i--) {
            char kata = awal.charAt(i);
-           cek = String.valueOf(kata);
+           cek += String.valueOf(kata);
            if (cek.equalsIgnoreCase("g")){
                char kar = awal.charAt(i-1);
                String cek1 = String.valueOf(kar);
